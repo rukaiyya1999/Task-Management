@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <Navbar expand="lg" className="bg-dark">
+    <Navbar expand="lg" className="bg-dark navbar-dark" >
       <Container>
         <Navbar.Brand style={{ color: "white" }}>Task Management</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
